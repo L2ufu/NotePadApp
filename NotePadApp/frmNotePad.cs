@@ -1,3 +1,5 @@
+using System.IO;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 namespace NotePadApp
 {
     public partial class frmNotePad : Form
@@ -9,12 +11,29 @@ namespace NotePadApp
 
         private void ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            saveFileDialog1.ShowDialog();
+            if (saveFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                using (StreamWriter writer = new StreamWriter(saveFileDialog1.FileName))
+                {
+                    writer.Write(richTxtBox.Text);
+                }
+            }
         }
 
-        private void открытьToolStripMenuItem_Click(object sender, EventArgs e)
+        private void openToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            openFileDialog1.ShowDialog();
+            if (openFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                using (StreamReader reader = new StreamReader(openFileDialog1.FileName))
+                {
+                    richTxtBox.Text = reader.ReadToEnd();
+                }
+            }
+        }
+
+        private void frmNotePad_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

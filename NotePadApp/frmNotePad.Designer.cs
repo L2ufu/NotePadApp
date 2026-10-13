@@ -28,11 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            richTextBox1 = new RichTextBox();
+            richTxtBox = new RichTextBox();
             menuStrip1 = new MenuStrip();
             toolStripMenuItem1 = new ToolStripMenuItem();
             создатьToolStripMenuItem = new ToolStripMenuItem();
-            открытьToolStripMenuItem = new ToolStripMenuItem();
+            openToolStripMenuItem = new ToolStripMenuItem();
             ToolStripMenuItem = new ToolStripMenuItem();
             сохранитьToolStripMenuItem1 = new ToolStripMenuItem();
             параметрыСтраницыToolStripMenuItem = new ToolStripMenuItem();
@@ -47,14 +47,14 @@
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
-            // richTextBox1
+            // richTxtBox
             // 
-            richTextBox1.Dock = DockStyle.Fill;
-            richTextBox1.Location = new Point(0, 24);
-            richTextBox1.Name = "richTextBox1";
-            richTextBox1.Size = new Size(1032, 582);
-            richTextBox1.TabIndex = 0;
-            richTextBox1.Text = "";
+            richTxtBox.Dock = DockStyle.Fill;
+            richTxtBox.Location = new Point(0, 24);
+            richTxtBox.Name = "richTxtBox";
+            richTxtBox.Size = new Size(1032, 582);
+            richTxtBox.TabIndex = 0;
+            richTxtBox.Text = "";
             // 
             // menuStrip1
             // 
@@ -67,7 +67,7 @@
             // 
             // toolStripMenuItem1
             // 
-            toolStripMenuItem1.DropDownItems.AddRange(new ToolStripItem[] { создатьToolStripMenuItem, открытьToolStripMenuItem, ToolStripMenuItem, сохранитьToolStripMenuItem1, параметрыСтраницыToolStripMenuItem, печатьToolStripMenuItem, выходToolStripMenuItem });
+            toolStripMenuItem1.DropDownItems.AddRange(new ToolStripItem[] { создатьToolStripMenuItem, openToolStripMenuItem, ToolStripMenuItem, сохранитьToolStripMenuItem1, параметрыСтраницыToolStripMenuItem, печатьToolStripMenuItem, выходToolStripMenuItem });
             toolStripMenuItem1.Name = "toolStripMenuItem1";
             toolStripMenuItem1.Size = new Size(37, 20);
             toolStripMenuItem1.Text = "File";
@@ -78,12 +78,12 @@
             создатьToolStripMenuItem.Size = new Size(204, 22);
             создатьToolStripMenuItem.Text = "Создать";
             // 
-            // открытьToolStripMenuItem
+            // openToolStripMenuItem
             // 
-            открытьToolStripMenuItem.Name = "открытьToolStripMenuItem";
-            открытьToolStripMenuItem.Size = new Size(204, 22);
-            открытьToolStripMenuItem.Text = "Открыть";
-            открытьToolStripMenuItem.Click += открытьToolStripMenuItem_Click;
+            openToolStripMenuItem.Name = "openToolStripMenuItem";
+            openToolStripMenuItem.Size = new Size(204, 22);
+            openToolStripMenuItem.Text = "Открыть";
+            openToolStripMenuItem.Click += openToolStripMenuItem_Click;
             // 
             // ToolStripMenuItem
             // 
@@ -147,11 +147,12 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1032, 606);
-            Controls.Add(richTextBox1);
+            Controls.Add(richTxtBox);
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
             Name = "frmNotePad";
             Text = "Form1";
+            Load += frmNotePad_Load;
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             ResumeLayout(false);
@@ -160,12 +161,12 @@
 
         #endregion
 
-        private RichTextBox richTextBox1;
+        private RichTextBox richTxtBox;
         private MenuStrip menuStrip1;
         private ToolStripMenuItem toolStripMenuItem1;
         private ToolStripMenuItem впвапваToolStripMenuItem;
         private ToolStripMenuItem создатьToolStripMenuItem;
-        private ToolStripMenuItem открытьToolStripMenuItem;
+        private ToolStripMenuItem openToolStripMenuItem;
         private ToolStripMenuItem ToolStripMenuItem;
         private ToolStripMenuItem сохранитьToolStripMenuItem1;
         private ToolStripMenuItem параметрыСтраницыToolStripMenuItem;
