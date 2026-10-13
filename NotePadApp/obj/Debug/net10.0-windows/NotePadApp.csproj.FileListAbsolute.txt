@@ -1,0 +1,16 @@
+C:\Users\25300927\source\repos\NotePadApp\NotePadApp\bin\Debug\net10.0-windows\NotePadApp.exe
+C:\Users\25300927\source\repos\NotePadApp\NotePadApp\bin\Debug\net10.0-windows\NotePadApp.deps.json
+C:\Users\25300927\source\repos\NotePadApp\NotePadApp\bin\Debug\net10.0-windows\NotePadApp.runtimeconfig.json
+C:\Users\25300927\source\repos\NotePadApp\NotePadApp\bin\Debug\net10.0-windows\NotePadApp.dll
+C:\Users\25300927\source\repos\NotePadApp\NotePadApp\bin\Debug\net10.0-windows\NotePadApp.pdb
+C:\Users\25300927\source\repos\NotePadApp\NotePadApp\obj\Debug\net10.0-windows\NotePadApp.frmNotePad.resources
+C:\Users\25300927\source\repos\NotePadApp\NotePadApp\obj\Debug\net10.0-windows\NotePadApp.csproj.GenerateResource.cache
+C:\Users\25300927\source\repos\NotePadApp\NotePadApp\obj\Debug\net10.0-windows\NotePadApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\25300927\source\repos\NotePadApp\NotePadApp\obj\Debug\net10.0-windows\NotePadApp.AssemblyInfoInputs.cache
+C:\Users\25300927\source\repos\NotePadApp\NotePadApp\obj\Debug\net10.0-windows\NotePadApp.AssemblyInfo.cs
+C:\Users\25300927\source\repos\NotePadApp\NotePadApp\obj\Debug\net10.0-windows\NotePadApp.csproj.CoreCompileInputs.cache
+C:\Users\25300927\source\repos\NotePadApp\NotePadApp\obj\Debug\net10.0-windows\NotePadApp.dll
+C:\Users\25300927\source\repos\NotePadApp\NotePadApp\obj\Debug\net10.0-windows\refint\NotePadApp.dll
+C:\Users\25300927\source\repos\NotePadApp\NotePadApp\obj\Debug\net10.0-windows\NotePadApp.pdb
+C:\Users\25300927\source\repos\NotePadApp\NotePadApp\obj\Debug\net10.0-windows\NotePadApp.genruntimeconfig.cache
+C:\Users\25300927\source\repos\NotePadApp\NotePadApp\obj\Debug\net10.0-windows\ref\NotePadApp.dll
